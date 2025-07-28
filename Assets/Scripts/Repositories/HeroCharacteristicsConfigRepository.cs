@@ -6,7 +6,7 @@ namespace LastWarTest.Repositories
 {
     public class HeroCharacteristicsConfigRepository : MonoBehaviour, IHeroCharacteristicsRepository
     {
-        public HeroCharacteristicsConfig config;
+        [field: SerializeField] public HeroCharacteristicsConfig config { get; private set; }
 
         public HeroCharacteristicsModel GetBaseHeroCharacteristics()
         {

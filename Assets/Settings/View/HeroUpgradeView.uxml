@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Settings/View/HeroUpgradeViewStyle.uss?fileID=7433441132597879392&amp;guid=3af129fa0b3ab42a0af7be2e2c4ee2b1&amp;type=3#HeroUpgradeViewStyle" />
+    <ui:VisualElement name="Content" style="left: 10%; top: 10%; height: 80%; width: 80%; background-color: rgb(176, 176, 176); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; justify-content: center;">
+        <ui:Label text="Upgrade Hero" name="Title" style="-unity-text-align: upper-center; font-size: 48px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=a14aae92ddcfc46b399e058dc3757924&amp;type=3#NotInter-Regular&quot;); flex-grow: 0;" />
+        <ui:Label text="Level 11" name="Level" style="font-size: 40px; -unity-text-align: upper-center;" />
+        <ui:VisualElement name="Space" style="flex-grow: 0; height: 40px;" />
+        <ui:Label text="Hero health: 100 &lt;color=#ee3&gt;+10&lt;/color&gt;" name="CharacteristicHealth" style="flex-direction: row; font-size: 36px;" />
+        <ui:Label text="Hero health: 100 &lt;color=#ff0&gt;+10&lt;/color&gt;" name="CharacteristicAttack" style="flex-direction: row; font-size: 36px;" />
+        <ui:Label text="Hero health: 100 &lt;color=#ff0&gt;+10&lt;/color&gt;" name="CharacteristicMoveSpeed" style="flex-direction: row; font-size: 36px;" />
+        <ui:Label text="Hero health: 100 &lt;color=#ff0&gt;+10&lt;/color&gt;" name="CharacteristicAttackSpeed" style="flex-direction: row; font-size: 36px;" />
+        <ui:VisualElement name="Space" style="flex-grow: 1;" />
+        <ui:Button text="Upgrade" name="UpgradeButton" style="font-size: 36px;" />
+    </ui:VisualElement>
+</ui:UXML>
